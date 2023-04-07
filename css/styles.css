@@ -125,7 +125,7 @@ img {
     position: relative;
 }
 
-.current:is(:hover, :focus)::after {
+.current::after {
     content: '';
     position: absolute;
     left: 0;
